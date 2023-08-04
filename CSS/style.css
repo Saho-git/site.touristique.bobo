@@ -1,0 +1,168 @@
+
+.global{
+        margin-left:0px; margin-right:0px;
+        background-color: rgb(234, 227, 174);
+}
+
+
+.titre{
+        background-color:gold;
+         padding:0px 0px 10px 10px;
+         max-height: 10%;
+}
+.ville{padding-top: 18px;text-align: left ;}
+.menu{
+        background-color: gold;
+        width: 200;
+        height: 100;
+        display: inline;                            
+}
+
+td{ text-align: left;}
+
+li a:hover{color: green;}
+li a:link{color: black;}
+li a:visited{color: black;}
+li a:active{color: red;}
+nav div div a:active{color: red;}
+nav div div a:link{color: black;}
+nav div div a:visited{color: black;}
+nav div div a:hover{color: green;}
+footer div a:link{color: black;}
+*
+/*{ margin: 0px; padding: 0px;}*/
+.contenair{
+  max-width:  100%;
+  margin: 70px auto;
+}
+.d1{
+  
+  width: 100%;
+  height: 300px;
+  box-shadow:0px 15px 10px -5px #777;
+  background-color:khaki;
+  background-size:cover;
+  animation: fondu 7s ease-in-out infinite both; 
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+  
+} 
+.d1:hover{
+
+}
+@keyframes fondu { 
+             
+      0%{background-image: url("../IMG/OIP.jpg");}
+       33.33%{background-image: url("../IMG/03.jpeg");}
+      66.67%{background-image: url("../IMG/telecharger.jpg");}
+      100%{background-image: url("../IMG/YINGA_88.jpg");}
+}
+.sous_menu{
+        display: none;
+    }
+    .sous_menu1{
+        display: none;
+    }
+    .sous_menu2{
+        display: none;
+    }
+    div ul li{
+        list-style-type: none;
+    }
+    div >ul{
+         margin: 1px;
+         padding: 1px;
+    }
+    nav >ul >li{
+        float: left;
+        position: relative;
+    }
+    .div>ul::after{
+        content: ;
+        display: table;
+       clear: both;
+    }
+    div > ul > li > a{
+        padding: 20px 30px;
+        color : #fff;
+      }
+      nav div div:hover .sous_menu{
+       display: inline;
+        position: absolute;
+        overflow:hidden;
+        right: 47%;
+        top: 90px;
+        
+        padding:  0px;
+        background-color: #fff;
+        
+      }
+      nav div div:hover .sous_menu1{
+        display:inline;
+         position: absolute;
+         overflow:hidden;
+         right: 20%;
+         top: 35px;
+         
+         background-color: #fff;
+         padding:  0px;
+         
+       }
+       nav div div:hover .sous_menu2{
+        display:inline;
+         position: absolute;
+         overflow:hidden;
+         right: 21%;
+         top: 70px;
+         
+         background-color: #fff;
+         padding:  0px;
+         
+       }
+      .sous_menu li a {
+        padding : 5px 20px;
+        color : #892554;
+        font-size: 14px;
+        width: 200px;
+      }
+      .sous_menu1 li a {
+        padding : 15px 30px;
+        color : #c9356b;
+        font-size: 14px;
+        width: 200px;
+      }
+      .sous_menu2 li a {
+        padding : 15px 30px;
+        color : #d74bbe;
+        font-size: 14px;
+        width: 200px;}
+      .sous_menu li {
+        border-bottom : 1px solid #ccc;
+      }
+      .sous_menu1 li {
+        border-bottom : 1px solid #ccc;
+      }
+      .sous_menu2 li {
+        border-bottom : 1px solid #ccc;
+      }
+      
+      .menu:hover{
+        border-top: 5px solid red;
+        background-color: RGBa(255,17,38,0.15);
+      }
+      
+      .menu .sous-menu{
+        background-color: fuchsia ;
+      }
+      .actualite{
+        float: left; width:40% ; 
+         text-align:left;
+         /* background-image: url(../IMG/Mairie.jpg); */
+        background-repeat: no-repeat;
+         color: brown;
+      }
+      @media only screen and (max-width:700px) { 
+        div{ width: 100%;}
+       } 
